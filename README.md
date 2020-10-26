@@ -1,0 +1,2 @@
+# LolicoreExpress.github.io
+ startpage
