@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+body {
+	background-color: #282923;
+}
+table {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+td {
+	font-family: 'Inconsolata', monospace;
+	font-size: 1.5em;
+	color: white;
+	padding: 0px 12px 0px 12px;
+	
+}
+#social {
+	color: #FA5050;
+}
+#video {
+	color: #FA9D50;
+}
+#image {
+	color: #FADB50;
+}
+#music {
+	color: #ADFA50;
+}
+#torrent {
+	color: #50FACD;
+}
+#misc {
+	color: #509DFA;
+}
+a:link, a:visited {
+	color: white;
+	text-decoration: none;
+	transition: text-shadow 0.5s;
+	text-shadow: 0px 0px 0px white;
+}
+a:hover {
+	text-shadow: 0px 0px 4px white;
+}
+a:active {
+	color: white;
+}
